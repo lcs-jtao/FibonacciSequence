@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+// iteration
+var values = [0,1]
+var newValue = 0
+
+for i in 0...10 {
+    newValue = values[i] + values[i+1]
+    values.append(newValue)
+}
+print(values)
 
